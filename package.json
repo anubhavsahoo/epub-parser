@@ -17,6 +17,8 @@
     "eyes": "~0.1.8"
   },
   "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
     "vows": "0.5.x"
   },
   "main": "index.js",
@@ -24,7 +26,7 @@
     "example": "example"
   },
   "scripts": {
-    "test": "node ./example/parse.js example/testbook.epub"
+    "test": "babel-node test.js --presets es2015"
   },
   "repository": {
     "type": "git",
