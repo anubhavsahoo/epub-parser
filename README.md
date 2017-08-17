@@ -29,21 +29,14 @@ In a nutshell though, it's as simple as this:
 
 ```javascript
 
-var epubParser = require('epub-parser');
-
-epubParser.open(epubFullPath, function (err, epubData) {
-
-	if(err) return console.log(err);
-	console.log(epubData.easy);
-	console.log(epubData.raw.json.ncx);
-
-});
+import Epub from ('epub-parser');
 
 const ep = new Epub('./example/testbook.epub');
 ep.open().then((ep)=>{
   console.log(ep);
   console.log(ep.getMetadata());
 });
+
 ```
 
 # Data structure
