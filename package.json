@@ -28,7 +28,8 @@
   },
   "scripts": {
     "test": "babel-node test.js --presets es2015",
-    "build": "babel lib/epub-parser.js --presets es2015 --out-file dist/epub-parser.js"
+    "build": "babel lib/epub-parser.js --presets es2015 --out-file dist/epub-parser.js",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
