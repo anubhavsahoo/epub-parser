@@ -39,6 +39,11 @@ epubParser.open(epubFullPath, function (err, epubData) {
 
 });
 
+const ep = new Epub('./example/testbook.epub');
+ep.open().then((ep)=>{
+  console.log(ep);
+  console.log(ep.getMetadata());
+});
 ```
 
 # Data structure
