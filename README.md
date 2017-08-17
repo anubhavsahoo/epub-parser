@@ -1,7 +1,7 @@
 epub-parser 
 ===========
 
-# IMPORTANT - Currently a Work-In-Progress. 
+# IMPORTANT - Current status - Unstable and Work-In-Progress
 
 # What It Does
 
