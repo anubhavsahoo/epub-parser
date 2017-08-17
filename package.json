@@ -26,7 +26,8 @@
     "example": "example"
   },
   "scripts": {
-    "test": "babel-node test.js --presets es2015"
+    "test": "babel-node test.js --presets es2015",
+    "build": "babel test.js --presets es2015"
   },
   "repository": {
     "type": "git",
