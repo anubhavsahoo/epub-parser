@@ -1,1 +1,1 @@
-module.exports = require('./lib/epub-parser');
+module.exports = require('./dist/epub-parser');

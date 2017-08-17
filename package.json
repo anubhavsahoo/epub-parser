@@ -1,15 +1,16 @@
 {
-  "name": "epub-parser",
-  "version": "0.2.5",
-  "description": "Epub parser",
+  "name": "@anubhavsahoo/epub-parser",
+  "version": "0.3.0",
+  "description": "Epub parser t oread and modify epub contents",
   "keywords": [
     "epub"
   ],
-  "homepage": "https://github.com/Vaporbook/epub-parser",
+  "homepage": "https://github.com/anubhavsahoo/epub-parser",
   "bugs": {
-    "email": "aaron@readsocialapi.com"
+    "email": "anubhav.sahoo@gmail.com"
   },
   "author": "Aaron Miller <aaron@readsocialapi.com> (http://twitter.com/vaporbook)",
+  "contributors": ["Anubhav Sahoo <anubhav.sahoo@gmail.com>"],
   "dependencies": {
     "node-zip": ">=0.0.2",
     "xml2js": ">=0.0.1",
@@ -27,7 +28,7 @@
   },
   "scripts": {
     "test": "babel-node test.js --presets es2015",
-    "build": "babel test.js --presets es2015"
+    "build": "babel lib/epub-parser.js --presets es2015 --out-file dist/epub-parser.js"
   },
   "repository": {
     "type": "git",
