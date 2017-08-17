@@ -1,5 +1,7 @@
-epub-parser
+epub-parser 
 ===========
+
+# IMPORTANT - Currently a Work-In-Progress. 
 
 # What It Does
 
