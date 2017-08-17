@@ -1,4 +1,4 @@
-import Epub from './lib/epub-parser.js';
+import Epub from './dist/epub-parser.js';
 
 // EP.open('./example/testbook.epub')
 // .then(console.log).catch(console.error);
