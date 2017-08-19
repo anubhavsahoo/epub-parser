@@ -1,7 +1,7 @@
 {
   "name": "@anubhavsahoo/epub-parser",
-  "version": "0.3.2",
-  "description": "Epub parser t oread and modify epub contents",
+  "version": "0.3.3",
+  "description": "Epub parser to read and modify epub contents",
   "keywords": [
     "epub"
   ],
@@ -10,12 +10,15 @@
     "email": "anubhav.sahoo@gmail.com"
   },
   "author": "Aaron Miller <aaron@readsocialapi.com> (http://twitter.com/vaporbook)",
-  "contributors": ["Anubhav Sahoo <anubhav.sahoo@gmail.com>"],
+  "contributors": [
+    "Anubhav Sahoo <anubhav.sahoo@gmail.com>"
+  ],
   "dependencies": {
+    "eyes": "~0.1.8",
+    "jszip": "^3.1.3",
     "node-zip": ">=0.0.2",
-    "xml2js": ">=0.0.1",
     "request": "~2.12.0",
-    "eyes": "~0.1.8"
+    "xml2js": ">=0.0.1"
   },
   "devDependencies": {
     "babel-cli": "^6.24.1",
