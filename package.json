@@ -1,6 +1,6 @@
 {
   "name": "@anubhavsahoo/epub-parser",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "Epub parser to read and modify epub contents",
   "keywords": [
     "epub"
